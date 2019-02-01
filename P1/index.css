@@ -1,0 +1,300 @@
+.espaçamento{
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*Header*/
+a{
+  color: black;
+}
+.header_img, .header_lista_1, .header_lista_2{
+  display: inline-block;
+}
+
+.header_lista_1 ul li, .header_lista_2 ul li{
+  display: inline;
+}
+
+
+.header_img img{
+  width: 300px;
+  height: 200px;
+}
+
+.header_img{
+	float: left;
+	
+}
+
+.header_lista_2{
+  
+}
+
+.header_school{
+	float: right;
+}
+
+.header_lista_2 li{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+.header_lista_1{
+  margin-left: 200px;
+}
+
+.header_lista_1 li{
+  border: 2px solid black;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.header_lista_1 a{
+  text-decoration: none;
+}
+
+.header_pesquisa{
+  float: right;
+}
+
+.header_avançada{
+  float: right;
+}
+
+button{
+  box-shadow: 2px 2px 2px;
+}
+
+.header_pesquisa button, .header_pesquisa input{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/*Article*/
+/*Section*/
+
+article img{
+  width: 100px;
+  height: 100px;
+}
+
+
+section, aside{
+  display: inline-block;
+}
+
+section{
+  width: 26%
+}
+
+.meio{
+  width: 47%;
+  font-size: 12px;
+}
+
+.direito{
+  float: right;
+  width: 26%;
+}
+
+section{
+  float: left;
+}
+
+section img{
+  width: 320px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.lista_section1 ul{
+  margin-left: -30px;
+}
+
+.lista_section1 li{
+  border: 2px solid black;
+  padding-left: 5px;
+  list-style: none;
+  width: 200px;
+  margin-top: 10px;
+}
+
+
+.listasection1 a{
+  text-decoration: none;
+}
+
+.listasection2{
+  border: 2px solid black;
+  background-color: lightgray;
+  width: 320px;
+}
+
+.listasection2 ul{
+  margin-left: -30px;
+}
+
+.listasection2 li{
+  list-style: none;
+}
+
+.listasection2 a{
+  text-decoration: none;
+}
+
+.whatsnew{
+  border: 2px solid black;
+  background-color: lightgray;
+  height: 300px;
+}
+
+.whatsnewleft, .whatsnewright{
+  display: inline-block;
+}
+
+.whatsnewleft{
+  width: 20%;
+  padding-left: 20px;
+}
+
+.whatsnewright{
+  width: 70%;
+}
+
+.morenews{
+  float: right;
+}
+
+.whatsnewright a{
+  font-weight: bold;
+}
+
+.whatsnewleft p{
+  font-style: italic;
+}
+
+.morenews span{
+  border: 1px solid black;
+}
+
+.newsticker{
+  border: 2px solid black;
+  background-color: lightgray;
+  margin-top: 10px;
+}
+
+.newstickerleft, .newstickerright{
+  display: inline-block;
+}
+
+.newstickerleft{
+  width: 68%;
+  padding-left: 20px;
+}
+
+.newstickerright{
+	float: right;
+  width: 18%;
+}
+
+.newstickerright a{
+  display: block;
+  border: 1px solid black;
+  width: 10%;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.calendario{
+  border: 2px solid black;
+  background-color: lightgray;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.calendariocima h2, .calendariocima p{
+  display: inline;
+}
+
+.calendariocima{
+  padding-top: 20px;
+}
+.calendariocima a{
+  float: right;
+  margin-right: 20px;
+}
+
+.img1, .img2, .img3{
+  float: right;
+}
+
+.img1 img{
+  width:300px;
+  height:90px;
+  margin-top: 5px;
+}
+
+.img2{
+  border: 2px solid black;
+  width: 300px;
+}
+
+.img2 img, .img2 h2{
+  display: inline;
+}
+
+.img2 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+.img2 h2, .img3 h2{
+  float: right;
+  padding-right: 20px;
+}
+
+.img3{
+  margin-top: 25px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.img3 img, .img3 h2{
+  display: inline;
+}
+
+.img3 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+footer{
+  border-top: 2px solid black;
+  margin-top: 30px;
+}
+
+footer ul li{
+	display: inline;
+}
+
+footer ul, footer a, footer p{
+display: inline;
+}
+
+footer ul{
+	float: left;
+}
+
+footer p{
+	float: right;
+}
+
+footer {
+	text-align: center;
+}
+
