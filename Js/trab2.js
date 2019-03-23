@@ -9,11 +9,11 @@ function adiciona(){
 function acende(){
 
 
-  if(document.getElementById('lampada').src == "Jleite10.github.io/Js/lampada_off.gif"){
-    document.getElementById('lampada').src = "Jleite10.github.io/Js/lampada_on.gif";
+  if(document.getElementById('lampada').src.match("lampada_off.gif")){
+    document.getElementById('lampada').src = "lampada_on.gif";
   }
   else {
-    document.getElementById('lampada').src = "Jleite10.github.io/Js/lampada_off.gif";
+    document.getElementById('lampada').src = "lampada_off.gif";
   }
 
     }
